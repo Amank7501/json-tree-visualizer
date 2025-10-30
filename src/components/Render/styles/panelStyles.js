@@ -1,0 +1,55 @@
+// Shared inline styles for JSON input/search panel
+export const panelStyles = {
+  container: {
+    position: "absolute",
+    top: 10,
+    left: 10,
+    zIndex: 10,
+    background: "white",
+    padding: "14px",
+    borderRadius: "8px",
+    boxShadow: "0 2px 8px rgba(0,0,0,0.15)",
+    width: "360px",
+  },
+  textarea: {
+    width: "100%",
+    fontFamily: "monospace",
+    fontSize: "14px",
+  },
+  input: {
+    width: "100%",
+    padding: "6px",
+    borderRadius: "6px",
+    border: "1px solid #ccc",
+    fontFamily: "monospace",
+  },
+
+  buttonClear: {
+    marginTop: "8px",
+    marginLeft: "8px",
+    padding: "8px 12px",
+    backgroundColor: "red",
+    color: "white",
+    border: "none",
+    borderRadius: "6px",
+    cursor: "pointer",
+  },
+  buttonPrimary: {
+    marginTop: "8px",
+    padding: "8px 12px",
+    backgroundColor: "#6C5CE7",
+    color: "white",
+    border: "none",
+    borderRadius: "6px",
+    cursor: "pointer",
+  },
+  buttonSearch: {
+    marginTop: "6px",
+    padding: "6px 10px",
+    backgroundColor: "#00b894",
+    color: "white",
+    border: "none",
+    borderRadius: "6px",
+    cursor: "pointer",
+  },
+};
